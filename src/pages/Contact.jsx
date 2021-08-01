@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from '../Components/Header';
 
 class Contact extends React.Component{
     render() {
         return (
-            <div>응애 애기연락</div>
+            <div>
+                <Header/>
+                컨텍토
+            </div>
         );
     }
 }

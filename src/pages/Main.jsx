@@ -1,9 +1,12 @@
 import React from 'react';
-
+import Header from '../Components/Header';
 class Main extends React.Component{
     render() {
         return (
-            <div>응애 애기메인</div>
+            <div>
+                <Header/>
+                응애
+            </div>
         );
     }
 }

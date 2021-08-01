@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components"
 import {BrowserRouter as Router, Route} from "react-router-dom"
 import Main from './pages/Main';
 import Contact from './pages/Contact';
+
 const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
@@ -25,7 +26,7 @@ const App = ()=> {
   return (
     <>
     <GlobalStyle/>
-    <Router>
+      <Router>
       <Route path="/" exact>
         <Main/>
       </Route>
@@ -33,6 +34,7 @@ const App = ()=> {
         <Contact/>
       </Route>
     </Router>
+    
     </>
   );
 }
