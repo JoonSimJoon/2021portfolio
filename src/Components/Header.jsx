@@ -38,7 +38,7 @@ for (let a = 0; a < asd.length; a++) {
 }
 
 event.target.style.fontWeight = "bold";
-event.target.style.color = "#b3b3b3";
+event.target.style.color = "gray";
 };
 
 const Header = props => {
