@@ -6,11 +6,16 @@ class Main extends React.Component{
       
     render() {
         return (
-            <div style={{ marginTop: '3%', overflowX: 'hidden' }}>
+            <>
             <Header/>
+            <div style={{ marginTop: '23%', overflowX: 'hidden' }}>
             
                 응애
             </div>
+           
+
+            </> 
+
         );
     }
 }
