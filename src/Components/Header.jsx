@@ -63,7 +63,7 @@ console.log(before);
 const Header = props => {
 return (
   <>
-    <Wrapper>
+    <Wrapper basename={process.env.PUBLIC_URL}>
       <Logo src="./img/vs_logo.png" alt="sibal "></Logo>
       <NavText>
         <NavTextItem className="asd" onClick={setFont}>
