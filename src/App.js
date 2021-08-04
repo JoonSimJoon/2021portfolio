@@ -28,10 +28,10 @@ const App = ()=> {
     <>
     <GlobalStyle/>
       
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <Header/>
       <Left_nav/>
-      <Route path="/" exact>
+      <Route exact path="/" exact>
         <Main/>
       </Route>
       <Route path="/contact" exact>
