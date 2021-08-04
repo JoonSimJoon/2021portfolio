@@ -10,16 +10,25 @@ margin-right: 0px;
 `;
 
 const Wrapper = styled.div`
-width: 10%;
+width: 20%;
 height: 100%;
 box-sizing: border-box;
 position: fixed;
-top: 0;
+padding 10px 10px;
+top: 50px;
 left: 0;
 right: 0;
 z-index: 9000;
 `;
-
+const Blueline = styled.div`
+    background-color:#007acc;
+    color:#fff;
+`;
+const Nav = styled.ul`
+    height : 100%;
+    background-color:#252526;
+    color:#fff;
+`;
 const NavText = styled.ul`
 display: flex;
 padding: 15px;
@@ -46,9 +55,11 @@ const Left_nav = props => {
 return (
   <>
     <Wrapper >
-    <div style={{ marginTop: '0%'}}>업</div>
-    <div style={{ marginTop: '0%'}}>업</div>
-    <div style={{ marginTop: '0%'}}>업</div>
+    <Blueline>s</Blueline>
+    <Nav>
+        <NavTextItem>1</NavTextItem>
+        <NavTextItem>2</NavTextItem>
+    </Nav>
     </Wrapper>
   </>
 );
