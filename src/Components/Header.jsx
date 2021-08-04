@@ -15,7 +15,7 @@ height: 15px;
 display: flex;
 padding: 10px 8px;
 box-sizing: border-box;
-position: fixed;
+position: relative;
 top: 0;
 left: 0;
 right: 0;

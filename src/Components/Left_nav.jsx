@@ -10,10 +10,8 @@ margin-right: 0px;
 `;
 
 const Wrapper = styled.div`
-width: 100%;
-height: 15px;
-display: flex;
-padding: 10px 8px;
+width: 10%;
+height: 100%;
 box-sizing: border-box;
 position: fixed;
 top: 0;
@@ -44,30 +42,13 @@ width:100%;
 margin-right: 0px;
 `;
 
-const setFont = event => {
-let asd = document.getElementsByClassName("asd");
-for (let a = 0; a < asd.length; a++) {
-  asd[a].style.fontWeight = "normal";
-  asd[a].style.color = "#fff";
-}
-
-event.target.style.fontWeight = "bold";
-event.target.style.color = "gray";
-};
-
 const Left_nav = props => {
 return (
   <>
-    <Wrapper>
-      <Logo src="img/vs_logo.png" alt="logo"></Logo>
-      <NavText>
-        <NavTextItem className="asd" onClick={setFont}>
-          <Link to="/">Main</Link>
-        </NavTextItem>
-        <NavTextItem className="asd" onClick={setFont}>
-          <Link to="/contact">Contact</Link>
-        </NavTextItem>
-      </NavText>
+    <Wrapper >
+    <div style={{ marginTop: '0%'}}>업</div>
+    <div style={{ marginTop: '0%'}}>업</div>
+    <div style={{ marginTop: '0%'}}>업</div>
     </Wrapper>
   </>
 );

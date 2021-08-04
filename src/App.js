@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom"
 import Main from './pages/Main';
 import Contact from './pages/Contact';
 import Header from './Components/Header';
+import Left_nav from './Components/Left_nav';
 const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
@@ -29,6 +30,7 @@ const App = ()=> {
       
       <Router>
       <Header/>
+      <Left_nav/>
       <Route path="/" exact>
         <Main/>
       </Route>
