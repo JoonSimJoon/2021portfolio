@@ -7,7 +7,6 @@ class Main extends React.Component{
     render() {
         return (
             <>
-            <Header/>
             <div style={{ marginTop: '23%', overflowX: 'hidden' }}>
             
                 응애

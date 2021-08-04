@@ -7,7 +7,6 @@ class Contact extends React.Component{
     render() {
         return (
             <div style={{ marginTop: '23%', overflowX: 'hidden' }}>
-            <Header/>
                 컨텍토
             </div>
         );

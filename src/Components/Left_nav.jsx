@@ -44,23 +44,18 @@ width:100%;
 margin-right: 0px;
 `;
 
-let before;
-let cnt=0;
 const setFont = event => {
-if(cnt===0){
-  let asd = document.getElementsByClassName("asd");
-  before=asd[0];
-  cnt=1;
+let asd = document.getElementsByClassName("asd");
+for (let a = 0; a < asd.length; a++) {
+  asd[a].style.fontWeight = "normal";
+  asd[a].style.color = "#fff";
 }
-before.style.fontWeight="normal";
-before.style.color="#fff";
+
 event.target.style.fontWeight = "bold";
 event.target.style.color = "gray";
-before=event.target;
-console.log(before);
 };
 
-const Header = props => {
+const Left_nav = props => {
 return (
   <>
     <Wrapper>
@@ -77,4 +72,4 @@ return (
   </>
 );
 };
-export default Header;
+export default Left_nav;
