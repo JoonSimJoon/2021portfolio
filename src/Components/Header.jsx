@@ -64,7 +64,7 @@ const Header = props => {
 return (
   <>
     <Wrapper>
-      <Logo src="img/vs_logo.png" alt="logo"></Logo>
+      <Logo src="./img/vs_logo.png" alt="sibal "></Logo>
       <NavText>
         <NavTextItem className="asd" onClick={setFont}>
           <Link to="/">Main</Link>
