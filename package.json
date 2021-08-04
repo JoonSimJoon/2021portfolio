@@ -1,4 +1,5 @@
 {
+  "homepage": "https://simjoonttmd.github.io/2021portfolio/",
   "name": "2021portfolio",
   "version": "0.1.0",
   "private": true,
@@ -45,7 +46,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage": "https://simjoonttmd.github.io/2021portfolio/"
+  }
 
 }
