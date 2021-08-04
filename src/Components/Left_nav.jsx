@@ -11,7 +11,7 @@ margin-right: 0px;
 
 const Wrapper = styled.div`
 width: 20%;
-height: 100%;
+height: 91  %;
 box-sizing: border-box;
 position: fixed;
 padding 10px 10px;

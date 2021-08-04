@@ -5,10 +5,14 @@ import Main from './pages/Main';
 import Contact from './pages/Contact';
 import Header from './Components/Header';
 import Left_nav from './Components/Left_nav';
+import Footer from './Components/Footer';
+
 const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
+  position: relative;
+
 }
 
 body{
@@ -30,6 +34,7 @@ const App = ()=> {
       
       <Router basename={process.env.PUBLIC_URL}>
       <Header/>
+      <Footer/>
       <Left_nav/>
       <Route exact path="/" exact>
         <Main/>
