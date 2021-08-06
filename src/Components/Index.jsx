@@ -3,23 +3,16 @@ import styled from "styled-components";
 import {Link} from "react-router-dom"
 import {createGlobalStyle} from 'styled-components';
 
-const Logo = styled.img`
-height: 30px;
-margin-right: 0px;
-
-`;
-
 const Wrapper = styled.div`
 width: 20%;
 height: 91%;
 box-sizing: border-box;
 position: fixed;
-padding 10px 10px;
-top: 50px;
+padding: 11px 10px;
+bottom: 4%;
 left: 0;
-right: 0;
-z-index: 9000;
 `;
+
 const Blueline = styled.div`
     background-color:#007acc;
     color:#fff;
