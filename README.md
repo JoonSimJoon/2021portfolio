@@ -68,4 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # 2021portfolio
+
+[![badge](https://camo.githubusercontent.com/dddc2696532f6246af0ca0ae5a752232487b6ab38ff30c94e67f558f07364edd/687474703a2f2f7777772e63636b6f7265612e6f72672f696d616765732f63636c2f6c69635f62795f6e635f73615f672e676966)](https://camo.githubusercontent.com/dddc2696532f6246af0ca0ae5a752232487b6ab38ff30c94e67f558f07364edd/687474703a2f2f7777772e63636b6f7265612e6f72672f696d616765732f63636c2f6c69635f62795f6e635f73615f672e676966) 이 저작물은 크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이센스(CC BY-NC-SA 2.0 KR)에 따라 이용할 수 있습니다.
