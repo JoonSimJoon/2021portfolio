@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom"
 import Main from './pages/Main';
 import Contact from './pages/Contact';
 import Header from './Components/Header';
-import Left_nav from './Components/Left_nav';
+import Index from './Components/Index';
 import Footer from './Components/Footer';
 
 const GlobalStyle = createGlobalStyle`
@@ -35,7 +35,7 @@ const App = ()=> {
       <Router basename={process.env.PUBLIC_URL}>
       <Header/>
       <Footer/>
-      <Left_nav/>
+      <Index/>
       <Route exact path="/" exact>
         <Main/>
       </Route>

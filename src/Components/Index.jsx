@@ -51,7 +51,7 @@ width:100%;
 margin-right: 0px;
 `;
 
-const Left_nav = props => {
+const Index = props => {
 return (
   <>
     <Wrapper >
@@ -64,4 +64,4 @@ return (
   </>
 );
 };
-export default Left_nav;
+export default Index;
