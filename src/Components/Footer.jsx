@@ -21,10 +21,15 @@ bottom: 3%;
 right: 0;
 position:fixed; 
 background-color:#252526;
+border: 1px solid white;
 color:#fff;
 `;
 
+const Graytag = styled.div`
+background-color: #2d2d30;
+color:white;
 
+`;
 
 const Footer = props => {
 return (
@@ -33,6 +38,9 @@ return (
         Since 2021
     </Foot>
     <Wrapper>
+      <Graytag>
+        아니
+      </Graytag>
       엄
     </Wrapper>
   </>
