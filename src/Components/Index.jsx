@@ -6,7 +6,7 @@ import {createGlobalStyle} from 'styled-components';
 const Wrapper = styled.div`
 width: 18%;
 height: 75px;
-box-sizing: inherit;
+box-sizing: border-box;
 position: fixed;
 margin-right: 10px;
 top: 6%;
