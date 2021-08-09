@@ -21,7 +21,7 @@ bottom: 3%;
 right: 0;
 position:fixed; 
 background-color:#252526;
-border: 1px solid white;
+border: 1px solid #3f3f46;
 color:#fff;
 `;
 

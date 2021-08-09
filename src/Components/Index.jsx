@@ -4,18 +4,18 @@ import {Link} from "react-router-dom"
 import {createGlobalStyle} from 'styled-components';
 
 const Wrapper = styled.div`
-width: 18%;
-height: 75px;
+width: 19%;
+height: 90%;
 box-sizing: border-box;
 position: fixed;
 margin-right: 10px;
-top: 6%;
-left: 0;
+bottom: 3%;
+border: 1px solid #3f3f46;
+left: 4px;
 `;
 const Line = styled.div`
 width:100%;
 height:100%;
-border: 1px solid white;
 `;
 const Blueline = styled.div`
     background-color:#007acc;
@@ -48,18 +48,17 @@ width:100%;
 margin-right: 0px;
 `;
 
-const Index = props => {
+const Index = props => {  
 return (
   <>
     <Wrapper >
-      <Line>
+      <Nav>
       <Blueline>s</Blueline>
-    <Nav>
+    
         <NavTextItem>1</NavTextItem>
         <NavTextItem>2</NavTextItem>
         <NavTextItem>2</NavTextItem>
     </Nav>
-      </Line>
     
     </Wrapper>
   </>
