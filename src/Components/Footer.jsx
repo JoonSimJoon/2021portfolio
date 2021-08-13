@@ -42,7 +42,7 @@ return (
         아니
       </Graytag>
       <Graytag>
-        아래다
+        아래다...
       </Graytag>
       엄
     </Wrapper>
