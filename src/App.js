@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import Header from './Components/Header';
 import Index from './Components/Index';
 import Footer from './Components/Footer';
+import Section from './Components/Section';
+
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -36,6 +38,7 @@ const App = ()=> {
       <Header/>
       <Footer/>
       <Index/>
+      <Section/>
       <Route exact path="/" exact>
         <Main/>
       </Route>
