@@ -8,8 +8,7 @@ class Main extends React.Component{
         return (
             <>
             <div style={{ marginTop: '0%', overflowX: 'auto', marginLeft:'20%'}}>
-            
-                응애
+                
             </div>
            
 

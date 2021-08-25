@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 width: 80%;
 height: 30%;
 bottom: 3%;
-right: 0;
+right: 2px;
 position:fixed; 
 background-color:#252526;
 border: 1px solid #3f3f46;
@@ -40,9 +40,6 @@ return (
     <Wrapper>
       <Graytag>
         아니
-      </Graytag>
-      <Graytag>
-        아래다...
       </Graytag>
       엄
     </Wrapper>
