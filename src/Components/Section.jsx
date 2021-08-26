@@ -14,12 +14,12 @@ border: 1px solid #3f3f46;
 color:#fff;
 `;
 
-
 const Section = props => {  
     return (
      <>
         <Wrapper>
-        섹션
+
+         asd        
         </Wrapper>      
      </>
 );
