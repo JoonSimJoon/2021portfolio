@@ -10,7 +10,6 @@ height: 2.3%;
 bottom : 0;
 box-sizing: border-box;
 position:fixed; 
-box-sizing: border-box;
 background-color: #68217a;
 `;
 
