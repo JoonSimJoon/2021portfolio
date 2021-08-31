@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 width: 80%;
 height: 30%;
 bottom: 3%;
-right: 2px;
+right: 0.2%;
 position:fixed; 
 background-color:#252526;
 border: 1px solid #3f3f46;
