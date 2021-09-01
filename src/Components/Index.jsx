@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import {createGlobalStyle} from 'styled-components';
 
 const Wrapper = styled.div`
-width: 19%;
+width: 13%;
 height: 90%;
 box-sizing: border-box;
 position: fixed;

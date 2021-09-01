@@ -14,7 +14,7 @@ background-color: #68217a;
 `;
 
 const Wrapper = styled.div`
-width: 80%;
+width: 86%;
 height: 30%;
 bottom: 3%;
 right: 0.2%;
