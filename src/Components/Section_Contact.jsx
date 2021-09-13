@@ -52,7 +52,7 @@ overflow: auto;
 
 
 
-const Section = props => {  
+const Section_Contact = props => {  
     return (
      <>
         <Wrapper>
@@ -64,4 +64,4 @@ const Section = props => {
      </>
 );
 };
-export default Section;
+export default Section_Contact;

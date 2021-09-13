@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from '../Components/Header';
-
+import Section_Main from '../Components/Section_Main';
 
 class Main extends React.Component{
       
     render() {
         return (
             <>
-            <div style={{ marginTop: '0%', overflowX: 'auto', marginLeft:'20%'}}>
-                
-            </div>
+            <Section_Main/>
            
 
             </> 
