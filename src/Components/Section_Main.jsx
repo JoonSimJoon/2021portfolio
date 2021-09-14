@@ -49,7 +49,7 @@ overflow: auto;
    }
 `;
 
-const List_box = styled.li`
+const Year_box = styled.ol`
    left: 30px;
 `;
 
@@ -60,12 +60,11 @@ const Section_Main = props => {
         <Wrapper>
         <Text_box>
             <h1> 수상 목록</h1> <br/>
+            <>
             <ol>
-               <List_box> 2019</List_box>
-               <ul></ul>
-               <List_box> 2020</List_box>
-               <List_box> 2021</List_box>
+               <li>asd</li>
             </ol>
+            </>
          </Text_box>
         
         </Wrapper>      
