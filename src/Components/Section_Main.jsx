@@ -62,7 +62,7 @@ const Section_Main = props => {
             <h1> 수상 목록</h1> <br/>
             <>
             <ol>
-               <li>asd</li>
+               <li>왜..</li>
             </ol>
             </>
          </Text_box>
